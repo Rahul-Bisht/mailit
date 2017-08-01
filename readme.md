@@ -24,7 +24,7 @@ Install the app and start it up to point at the config:
 
 ```bash
 npm i mailit -g
-mailit --config ./config.json
+mailit --config /path/to/config.json
 ```
 
 And presto, a mail endpoint! Let's try it out:
