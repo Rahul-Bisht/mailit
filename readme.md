@@ -123,7 +123,7 @@ You can [run it from docker as well](https://hub.docker.com/r/dthree/mailit/), u
 
  - Microservices. Keep that monolith at bay.
 
- - I'll probably add more funcationality later. This is what I need right now.
+ - I'll probably add more functionality later. This is what I need right now.
 
 ## License
 
