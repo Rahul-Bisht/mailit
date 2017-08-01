@@ -6,7 +6,7 @@
 
 ---
 
-Mailit is a drop-in microservice for sending emalis over a REST API.
+Mailit is a drop-in microservice for sending emails over a REST API.
 
 First, create a config.json with your SMTP settings:
 
@@ -19,7 +19,7 @@ First, create a config.json with your SMTP settings:
 }
 ```
 
-Install the app and start it up:
+Install the app and start it up to point at the config:
 
 
 ```bash
@@ -30,7 +30,7 @@ mailit --config ./config.json
 And presto, a mail endpoint! Let's try it out:
 
 ```bash
-curl --data "to=d@somewhere.net&subject=hello&text=test" http://127.0.0.1:3000/email
+curl --data "to=d@me.net&subject=hi&text=hey world" http://127.0.0.1:3000/email
 ```
 
 You can browse to interactive API docs at `/api`:
@@ -67,8 +67,6 @@ Checks whether a given email username and password are valid.
 This is an alternative to email verification in a trusted environment.
 
 #### Arguments:
-
-Required:
 
  - `email:` The email address
  - `pass:` The password
