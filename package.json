@@ -1,0 +1,31 @@
+{
+  "name": "mailit",
+  "version": "0.0.1",
+  "description": "Drop-in email microservice.",
+  "main": "index.js",
+  "keywords": [
+    "mail",
+    "email",
+    "smtp",
+    "smtps",
+    "imap",
+    "pop3",
+    "mailer",
+    "nodemail",
+    "api",
+    "microservice"
+  ],
+  "author": "dthree",
+  "license": "MIT",
+  "bin": {
+    "mailit": "./bin/index.js",
+    "mailit-cli": "./bin/index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "nodemailer": "^4.0.1",
+    "swagpi": "^0.1.1",
+    "vorpal": "^1.12.0"
+  }
+}

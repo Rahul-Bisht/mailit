@@ -1,0 +1,15 @@
+{
+    "host": "smtp.footest.net",
+    "port": 465,
+    "secure": false,
+    "user": "noreply",
+    "pass": "FooTesters!!",
+    "rejectUnauthorized": false,
+    "services": {
+		"footest.net": {
+			"host": "smtp.footest.net",
+			"ports": [465, 587],
+			"secure": [true, true]
+		}
+    }
+}
